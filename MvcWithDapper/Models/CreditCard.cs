@@ -3,6 +3,6 @@
 public class CreditCard : Payment
 {
     public string? CardNumber { get; set; }
-    public DateTime Expiration { get; set; }
-    public string? SecurityCode { get; set; }
+    public DateTime CardExpiration { get; set; }
+    public string? CardSecurityCode { get; set; }
 }

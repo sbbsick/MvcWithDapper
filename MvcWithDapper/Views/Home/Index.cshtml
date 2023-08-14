@@ -1,8 +1,12 @@
-﻿@{
+﻿@model MvcWithDapper.Models.Bank
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">PAGAMENTOS</h1>
-    <p>Faça seu pagamento aqui.</p>
+    @{
+        <h1>@Model.Name</h1>
+    }
 </div>
